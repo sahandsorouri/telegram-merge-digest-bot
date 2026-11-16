@@ -1,0 +1,8 @@
+services:
+  merge-bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    # Batch state lives here, so a batch in progress survives a rebuild.
+    volumes:
+      - ./data:/app/data
