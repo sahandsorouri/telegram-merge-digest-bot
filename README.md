@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/sahandsorouri/sahandsorouri/main/assets/banner.svg" alt="Sahand Sorouri" width="100%">
+
 # Telegram Merge Bot
 
 Forward a pile of Telegram messages to this bot. Get back one digest, grouped by whoever originally wrote each message.
